@@ -1,0 +1,49 @@
+STATE_ID,STATE_NAME,DIVISION_ID
+1,Alabama,2
+4,Arizona,4
+5,Arkansas,9
+6,California,6
+8,Colorado,4
+9,Connecticut,5
+10,Delaware,7
+12,Florida,7
+13,Georgia,7
+16,Idaho,4
+17,Illinois,1
+18,Indiana,1
+19,Iowa,8
+20,Kansas,8
+21,Kentucky,2
+22,Louisiana,9
+23,Maine,5
+24,Maryland,7
+25,Massachusetts,5
+26,Michigan,1
+27,Minnesota,8
+28,Mississippi,2
+29,Missouri,8
+30,Montana,4
+31,Nebraska,8
+32,Nevada,4
+33,New Hampshire,5
+34,New Jersey,3
+35,New Mexico,4
+36,New York,3
+37,North Carolina,7
+38,North Dakota,8
+39,Ohio,1
+40,Oklahoma,9
+41,Oregon,6
+42,Pennsylvania,3
+44,Rhode Island,5
+45,South Carolina,7
+46,South Dakota,8
+47,Tennessee,2
+48,Texas,9
+49,Utah,4
+50,Vermont,5
+51,Virginia,7
+53,Washington,6
+54,West Virginia,7
+55,Wisconsin,1
+56,Wyoming,4

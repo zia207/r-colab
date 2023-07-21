@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20230209</CreaDate><CreaTime>11344500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractMultiValuesToPoints" Date="20230209" Time="113445">ExtractMultiValuesToPoints usa_soil_carbon_Albers "usa_dem DEM;usa_slope SLOPE" BILINEAR</Process></lineage></DataProperties></Esri></metadata>

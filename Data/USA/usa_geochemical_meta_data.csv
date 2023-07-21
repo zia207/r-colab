@@ -1,0 +1,55 @@
+FIELS_ID,Description,Unit
+Lab_ID, unique identifier assigned by the analytical laboratories ,
+SiteID, unique identifier assigned by generalized random tessellation stratified design software ,
+StateID, abbreviation for state name as follows TN,
+CollDate, date sample was collected in MM/DD/YY ,
+LandCover1, primary classification from National Land Cover Database 1992 Classification System ,
+LandCover2, secondary classification from National Land Cover Database 1992 Classification System ,
+A_Depth,,cm
+A_Ag, silver ,mg/kg
+A_Al, aluminum ,wt. %
+A_As, arsenic,mg/kg
+A_Ba, barium,mg/kg
+A_Be, beryllium,mg/kg
+A_Bi, bismuth ,mg/kg
+A_C_Tot, total carbon ,wt. %
+A_C_Inorg, inorganic (carbonate) carbon ,wt. %
+A_C_Org, organic carbon (difference between C_Tot and C_Inorg) ,wt. %
+A_Ca, calcium,wt. %
+A_Cd, cadmium,mg/kg
+A_Ce, cerium ,mg/kg
+A_Co, cobalt ,mg/kg
+A_Cr, chromium ,mg/kg
+A_Cs, cesium ,mg/kg
+A_Cu, copper ,mg/kg
+A_Fe, iron ,wt. %
+A_Ga, gallium ,mg/kg
+A_Hg, mercury ,mg/kg
+A_In, indium ,mg/kg
+A_K, potassium ,wt. %
+A_La, lanthanum ,mg/kg
+A_Li, lithium ,mg/kg
+A_Mg, magnesium ,wt. %
+A_Mn, manganese ,mg/kg
+A_Mo, molybdenum ,mg/kg
+A_Na, sodium ,wt. %
+A_Nb, niobium ,mg/kg
+A_Ni, nickel ,mg/kg
+A_P, phosphorus ,mg/kg
+A_Pb, lead ,mg/kg
+A_Rb, rubidium ,mg/kg
+A_S, sulfur ,wt. %
+A_Sb, antimony ,mg/kg
+A_Sc, scandium ,mg/kg
+A_Se, selenium ,mg/kg
+A_Sn, tin ,mg/kg
+A_Sr, strontium ,mg/kg
+A_Te, tellurium ,mg/kg
+A_Th, thorium ,mg/kg
+A_Ti, titanium ,wt. %
+A_Tl, thallium ,mg/kg
+A_U, uranium ,mg/kg
+A_V, vanadium ,mg/kg
+A_W, tungsten ,mg/kg
+A_Y, yttrium ,mg/kg
+A_Zn, zinc ,mg/kg

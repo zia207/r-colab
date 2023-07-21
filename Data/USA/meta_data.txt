@@ -1,0 +1,75 @@
+["A_" in any column heading indicates the data in that column are for the soil A horizon; LabID, unique identifier assigned by the analytical laboratories; 
+SiteID, unique identifier assigned by generalized random tessellation stratified design software; 
+StateID, abbreviation for state name as follows TN, Tennessee; TX, Texas; UT, Utah; VA, Virginia; VT, Vermont; WA, Washington; WI, Wisconsin; WV, West Virginia; WY, Wyoming;																		
+CollDate, date sample was collected in MM/DD/YY; 
+LandCover1, primary classification from National Land Cover Database 1992 Classification System; 
+LandCover2, secondary classification from National Land Cover Database 1992 Classification System; 
+Depth, cm
+Tot, total; 
+Tot_K_fs, total potassium feldspar; 
+Tot_Plag, total plagioclase feldspar; 
+Tot_Flds, total feldspar; 																		
+Tot_14A, total 14-angstrom clay minerals; 
+Tot_10A, total 10-angstrom clay minerals; 
+Kaolinit, kaolinite; 
+Aragon, aragonite; 
+Tot_Carb, total carbonate minerals; 
+Heuland, heulandite; 
+Tot_Zeol, total zeolite minerals; 
+Hornbl, hornblende; 
+Serpent, serpentine; 
+Amorph, amorphous; 
+Ag, silver; 
+Al, aluminum; 
+As, arsenic, 
+Ba, barium, 
+Be, beryllium, 
+Bi, bismuth; 																		
+C_Tot, total carbon; 
+C_Inorg, inorganic (carbonate) carbon; 
+C_Org, organic carbon (difference between C_Tot and C_Inorg); 
+Ca, calcium; 
+Cd, cadmium; 
+Ce, cerium; 
+Co, cobalt; 
+Cr, chromium; 
+Cs, cesium; 
+Cu, copper; 
+Fe, iron; 
+Ga, gallium; 
+Hg, mercury; 
+In, indium; 
+K, potassium; 
+La, lanthanum; 
+Li, lithium; 
+Mg, magnesium; 
+Mn, manganese; 
+Mo, molybdenum; 
+Na, sodium; 																		
+Nb, niobium; 
+i, nickel; 
+P, phosphorus; 
+Pb, lead; 
+Rb, rubidium; 
+S, sulfur; 
+Sb, antimony; 
+Sc, scandium; 
+Se, selenium; 
+n, tin; 
+Sr, strontium; 
+Te, tellurium; 
+Th, thorium; 
+Ti, titanium; 
+Tl, thallium; 
+U, uranium; 
+V, vanadium; 
+W, tungsten; 
+Y, yttrium; 
+Zn, zinc; 
+cm, centimeters; 
+wt. %, weight percent; 
+mg/kg, milligrams per kilogram; 
+<, less than; 
+≤, less than or equal to; 	
+			
+																	
