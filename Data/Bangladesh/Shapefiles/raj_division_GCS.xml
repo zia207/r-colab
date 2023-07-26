@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<coordinateSystem>
+		<name>Latitude / Longitude</name>
+		<datum>World Geodetic 1984 (WGS84)</datum>
+		<system>Latitude / Longitude</system>
+		<unit>Degree</unit>
+		<majorAxis>6.378137000000000000000000e+06</majorAxis>
+		<eccentricity>8.181919084262148644803858e-02</eccentricity>
+		<centerX>0.000000000000000000000000e+00</centerX>
+		<centerY>0.000000000000000000000000e+00</centerY>
+		<centerZ>0.000000000000000000000000e+00</centerZ>
+		<rotationX>0.000000000000000000000000e+00</rotationX>
+		<rotationY>0.000000000000000000000000e+00</rotationY>
+		<rotationZ>0.000000000000000000000000e+00</rotationZ>
+		<scaleAdjustment>0.000000000000000000000000e+00</scaleAdjustment>
+		<scaleX>1.000000000000000000000000e+00</scaleX>
+		<localScaleX>1.000000000000000000000000e+00</localScaleX>
+		<scaleY>1.000000000000000000000000e+00</scaleY>
+		<localScaleY>1.000000000000000000000000e+00</localScaleY>
+		<falseEasting>0.000000000000000000000000e+00</falseEasting>
+		<localOffsetX>0.000000000000000000000000e+00</localOffsetX>
+		<falseNorthing>0.000000000000000000000000e+00</falseNorthing>
+		<localOffsetY>0.000000000000000000000000e+00</localOffsetY>
+	</coordinateSystem>
+</data>
+
