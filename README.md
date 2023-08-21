@@ -1,6 +1,6 @@
 ## Run R-Code in Google Colab
 
-[Google Colab](https://colab.research.google.com/) is a cloud-based platform provided by Google for running and executing Python code. It is built on top of Jupyter Notebook and offers a free, convenient, and collaborative environment for data analysis, machine learning, and general-purpose Python programming. Colab allows you to create and share Jupyter notebooks that include code, text, images, and visualizations.
+[Google Colab](https://colab.research.google.com/) is a cloud-based platform provided by Google for running and executing Python code. It is built on Jupyter Notebook and offers a free, convenient, and collaborative environment for data analysis, machine learning, and general-purpose Python programming. Colab allows you to create and share Jupyter notebooks that include code, text, images, and visualizations.
 
 Key features of Google Colab include:
 
@@ -16,9 +16,9 @@ Key features of Google Colab include:
 
 6.  **Easy Sharing:** Colab notebooks can be easily shared with others by generating a shareable link. It's a convenient way to showcase your work or collaborate with others.
 
-To get started with Google Colab, you can visit the official website at [**https://colab.research.google.com/**](https://colab.research.google.com/). You can either create a new notebook or open an existing one from your Google Drive. The notebooks run on virtual machines hosted by Google, and once you close the browser, the virtual machine and its contents are discarded, but your notebook will be automatically saved to your Google Drive.
+To get started with Google Colab, visit the official website at [**https://colab.research.google.com/**](https://colab.research.google.com/). You can create a new notebook or open an existing one from your Google Drive. The notebooks run on virtual machines hosted by Google, and once you close the browser, the virtual machine and its contents are discarded. Still, your notebook will be automatically saved to your Google Drive.
 
-Keep in mind that the available resources, such as GPU and TPU quotas, may be limited for free users. Also, the specific features and limitations of Google Colab may evolve over time, so it's always a good idea to check the official website or documentation for the latest information.
+Remember that the available resources, such as GPU and TPU quotas, may be limited to free users. Also, the specific features and limitations of Google Colab may evolve, so it's always a good idea to check the official website or documentation for the latest information.
 
 Although Google Colab is primarily designed for Python, it also supports R. You can run R code in a Colab notebook by creating an R runtime environment. Here's how you can set it up:
 
@@ -32,7 +32,7 @@ Although Google Colab is primarily designed for Python, it also supports R. You 
 
 5.  Click on the "Save" button to apply the changes.
 
-Once you have set up the R runtime environment, you can start writing and executing R code in the notebook cells. To run a code cell, press Shift+Enter or click on the "Play" button next to the cell.
+Once you have set up the R runtime environment, you can start writing and executing R code in the notebook cells. To run a code cell, press Shift+Enter or click the "Play" button next to the cell.
 
 You can install R packages in Colab by using the **install.packages()** function.
 
@@ -47,7 +47,7 @@ Easy way to run R in  Colab with Python runtime using **rpy2**  python package. 
 
 Then you must create a folder in Goole drive named "R" to install all packages permanently.  
 
-Before installing R-package in Python runtime. You have to mount Google Drive:
+Before installing the R-package in Python runtime. You have to mount Google Drive:
 
 from google.colab import drive
 drive.mount('/content/drive')
