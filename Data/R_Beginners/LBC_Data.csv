@@ -1,4 +1,4 @@
-FIPS,REGION_ID,STATE,County,Empty Column 1,X,Y,LCB Mortality Rate,Smoking,PM25,NO2,SO2,Ozone,Pop 65,Pop Black,Pop Hipanic,Pop White,Education,Poverty %,Income Equality,Uninsured,DEM,Radon Zone Class,Urban Rural,Coal Production
+FIPS,REGION_ID,STATE,County,Empty Column 1,X,Y,LCB_Rate,Smoking,PM25,NO2,SO2,Ozone,Pop 65,Pop Black,Pop Hipanic,Pop White,Education,Poverty %,Income Equality,Uninsured,DEM,Radon Zone Class,Urban Rural,Coal Production
 1003,3,Alabama,Baldwin County,,789777.5039,884557.0795,48.1,20.8,7.89,0.7939,0.035343,39.79,19.5,9.24,4.54,83.06,66,13.14,4.5,13.34,36.78,Zone-3,Medium/small metro,No
 1013,3,Alabama,Butler County,,877731.5725,1007285.71,38.3,26,8.46,0.6344,0.0135,38.31,19,43.94,1.26,52.64,38,26.14,5.1,12.74,111.7,Zone-3,Nonmetro,No
 1013,3,Alabama,Butler County,,877731.5725,1007285.71,38.3,26,8.46,0.6344,0.0135,38.31,19,43.94,1.26,52.64,38,26.14,5.1,12.74,111.7,Zone-3,Nonmetro,No
