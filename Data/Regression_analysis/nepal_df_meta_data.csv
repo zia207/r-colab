@@ -1,0 +1,14 @@
+Column_name,Variables ,Description
+Foodstatus,Food Security ,Food sufficent (1)  or   inadequate  (0)
+Schooling_year,Year of  Schooling,Years of schooling head of household
+Age,Age,Age of  head of household
+Household_size,Household size,Number of family member in each household 
+Rainfed_area,Rainfed ,Crop area (ha) without  irrigation
+Irrigated_area,Irrigated,Crop area (ha) with irrigation
+No_livestock,Number of livestock ,Tropical livestock Unit
+Sex,Sex,Female (1) or male (0headed household
+Remittance,Remittance,Remittance received in NPR
+Caste,Caste,"Janjati (1, lower cast)  household or not (0)"
+Infrastructure_index,Infrastructure index,"An infrastructure index was constructed based on one-way on-foot distance in hour to the nearest sampled 11 facilities. These facilities include: primary school, health center, bus station, paved and dirt roads, shop, bazaar, market center, public transport organization and commercial bank branch. "
+,Regions,"central (1), easter (2), farwest (3), midwest (4) and  (5) "
+No_livestock,No_livestock,Agriculture (1) and non agriculture (0)
