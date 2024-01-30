@@ -1,0 +1,27 @@
+Variables,Description
+WAs,Irrigation water  Arsenic
+WP,Irrigation water P
+WFe,Irrigation water  Fe
+WEc,Irrigation water Ec
+WpH,Irrigation water  pH
+WMg,Irrigation water  Mg
+WNa,Irrigation water Na
+WCa,Irrigation water  Ca
+WK,Irrigation water K
+WS,Irrigation water  S
+SAs,Soil Total As
+SPAs,Phosphate exchangeable As
+SAOAs,Oxalate extractable As
+SAOFe,Amorphous FeO
+SpH,Soil pH
+SEc,Soil Ec
+SOC,Soil Organic Carbon
+Sand,Sand Percent
+Silt,Silt Percent
+Clay,Caly Percent
+SP,Soil P
+Elevation,Elevation
+Year_Irrigation,Year of Irrigation
+Dicstance_STW,Distance  from  STW
+Land_type,Flooding landtype
+Land_type_ID,Flooding landtype ID
