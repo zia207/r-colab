@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20230116</CreaDate><CreaTime>13133600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20230116" Time="131336">Clip "srdi_soil_data.csv Events" raj_division_GCS D:\Dropbox\GitHub\Data\Shapefiles\raj_soil_data_GCS.shp #</Process></lineage></DataProperties></Esri></metadata>
