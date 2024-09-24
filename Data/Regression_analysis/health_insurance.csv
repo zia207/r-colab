@@ -852,9 +852,7 @@ B,42,0,3,Female,18
 C,67,5,4,Male,29
 B,49,2,5,Female,31
 B,46,1,2,Female,2
-A,37,3,1,Non-binary,10
 A,33,2,2,Male,21
-C,47,7,2,Non-binary,4
 C,51,6,3,Female,6
 A,34,6,2,Female,24
 B,54,2,3,Female,16
@@ -986,7 +984,6 @@ C,49,7,5,Male,12
 A,29,6,1,Male,25
 B,24,0,2,Female,12
 C,43,5,4,Male,15
-B,25,1,2,Non-binary,3
 A,23,6,2,Male,18
 A,26,4,2,Male,12
 B,34,3,3,Female,0
@@ -1307,9 +1304,7 @@ A,32,6,2,Female,21
 B,29,2,3,Female,6
 C,40,2,2,Female,19
 C,64,7,2,Female,12
-A,24,4,2,Non-binary,13
 C,33,6,3,Female,15
-B,38,3,3,Non-binary,5
 B,27,0,1,Female,24
 A,23,5,3,Female,23
 A,25,1,2,Male,19
