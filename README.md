@@ -1,5 +1,6 @@
 ## Run R-Code in Google Colab
 
+
 [Google Colab](https://colab.research.google.com/) is a cloud-based platform provided by Google for running and executing Python code. It is built on Jupyter Notebook and offers a free, convenient, and collaborative environment for data analysis, machine learning, and general-purpose Python programming. Colab allows you to create and share Jupyter notebooks that include code, text, images, and visualizations.
 
 Key features of Google Colab include:
@@ -20,53 +21,108 @@ To get started with Google Colab, visit the official website at [**https://colab
 
 Remember that the available resources, such as GPU and TPU quotas, may be limited to free users. Also, the specific features and limitations of Google Colab may evolve, so it's always a good idea to check the official website or documentation for the latest information.
 
+## R Runtime
+
 Although Google Colab is primarily designed for Python, it also supports R. You can run R code in a Colab notebook by creating an R runtime environment. Here's how you can set it up:
 
 1.  Open Google Colab in your web browser at https://colab.research.google.com/.
 
-2.  Click on the "File" menu and select "New notebook" to create a new notebook.
+2.  Click on the `File` menu and select `New notebook` to create a new notebook.
 
-3.  In the toolbar, click on the "Runtime" menu and select "Change runtime type."
+3.  In the toolbar, click on the `Runtime` menu and select `Change runtime type.`
 
-4.  In the dialog box that appears, select "R" from the "Runtime type" dropdown.
+4.  In the dialog box that appears, select `R` from the `Runtime type` dropdown.
 
-5.  Click on the "Save" button to apply the changes.
+5.  Click on the `Save` button to apply the changes.
 
 Once you have set up the R runtime environment, you can start writing and executing R code in the notebook cells. To run a code cell, press Shift+Enter or click the "Play" button next to the cell.
 
 You can install R packages in Colab by using the **install.packages()** function.
 
-Easy way to run R in  Colab with Python runtime using **rpy2**  python package. We have to install this package using the pip command:
+## Python Runtime
 
-### Install rpy2
-!pip uninstall rpy2 -y
-!pip install rpy2==3.5.1
-%load_ext rpy2.ipython
+1.  Open Google Colab in your web browser at https://colab.research.google.com/.
 
-### Mount Google Drive
+2.  Click on the `File` menu and select `New notebook` to create a new notebook.
 
-Then you must create a folder in Goole drive named "R" to install all packages permanently.  
+3.  In the toolbar, click on the `Runtime` menu and select `Change runtime type.`
 
-Before installing the R-package in Python runtime. You have to mount Google Drive:
+4.  In the dialog box that appears, select `Python 3` from the `Runtime type` dropdown.
 
-from google.colab import drive
-drive.mount('/content/drive')
+5.  Click on the `Save` button to apply the changes.
 
-### Install R packages
+6.  Easy way to run R in Colab with Python runtime using **rpy2** python package which helps in using R in Python environments. We have to install this package using the `pip` command in code chunk::
 
-Then install R packages in drive/My Drive/R/ location using the following command:
+> !pip uninstall rpy2 -y
 
-%%R
-install.packages(c('tidyverse', 'Metrics', 'ggpmisc', 'broom', 'stargazer', 'report', 'performance', 'see'), lib='drive/My Drive/R/', repos='http://cran.rstudio.com/')
+> !pip install rpy2==3.5.1
 
+> load_ext rpy2.ipython`
 
-### Load  R packages
+7.  Since R in Google Lab run in Ubuntu OS, we have to install several `Ubuntu` packages to install several R packages
 
-Before loading R packages in Python runtime, you must define the package installation location before  library() function:
+> !sudo apt-get install\
+> libssl-dev\
+> libcurl4-openssl-dev\
+> unixodbc-dev
+> libxml2-dev
+> libmariadb-dev
+> libfontconfig1-dev\
+> libharfbuzz-dev\
+> libfribidi-dev\
+> libfreetype6-dev\
+> libpng-dev\
+> libtiff5-dev\
+> libjpeg-dev\
+> libcairo2-dev\
+> libgmp-dev\
+> libmpfr-dev\
+> liblapack-dev\
+> libcairo2-dev\
+> libzmq3-dev\
+> libharfbuzz-dev\
+> libpng-dev\
+> build-essential\
+> libcairo2-dev\
+> libmpfr-dev\
+> cmake\
+> gfortran
 
-%%R
-.libPaths('drive/My Drive/R')
-library(tidyverse)
+> !sudo apt-get install ghostscript\
+> !sudo add-apt-repository ppa:dns/gnu\
+> !sudo apt-get update\
+> !sudo apt install libgsl-dev
+
+8.  Mount Google: Use following command and follow on-screen instruction 
+
+> from google.colab import drive
+>
+> drive.mount('/content/drive')
+
+9.  Install R Packages in Google Drive
+
+Before installation of R packages, we have create a folder (name R) in your Google Drive, from you load all packages. During installation you to define this location (`lib='drive/My Drive/R/'`) locally for R-packages. For example:
+
+> install.packages(c('tidyverse', 'data.table'), lib='drive/My Drive/R/', repos='http://cran.rstudio.com/')
+
+10. Load R Package from Google Drive. Use following command to load R-packages
+
+> %%R
+>
+> .libPaths('drive/My Drive/R')
+>
+> library (tidyverse)
+
+> library (data.table)
+
+11. Use following commands, if to check and Installed Required R packages
+
+> pkg \<- c( 'tidyverse','data.table')
+>
+> new.packages \<- pkg\[!(pkg %in% installed.packages(lib='drive/My Drive/R/')\[,"Package"\])\]
+
+> if(length(new.packages)) install.packages(new.packages, lib='drive/My Drive/R/')
+
 
 
 
